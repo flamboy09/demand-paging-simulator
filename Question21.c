@@ -21,5 +21,5 @@ int main()
    float nmodpf=(1-per_of_mod)*pfst_not_mod*pow(10.0,6.0);
    float denom=modpf+nmodpf-mem_access_time;
    float pfr=num/denom;
-   printf("Maximum Accepted Page Fault Rate is:(%f/%f)= %f\n",num,denom,pfr);
+   printf("Maximum Accepted Page Fault Rate is:(%f/%f)= %12.5e\n",num,denom,pfr);
 }
